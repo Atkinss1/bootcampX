@@ -1,4 +1,8 @@
-SELECT COUNT(id)
-  FROM students
-    WHERE cohort_id <= 3
-      LIMIT 3;
+SELECT
+  COUNT(id)
+FROM
+  students
+WHERE
+  cohort_id <= 3
+LIMIT 
+  3;
